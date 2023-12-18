@@ -1,5 +1,7 @@
 p {
     color:blue;
-
-    background-color: aqua;
+    font-display: center;
+}
+h1 {
+    font: center;
 }
