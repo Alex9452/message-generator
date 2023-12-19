@@ -1,15 +1,14 @@
-function randomNumber() { 
-        return Math.floor(Math.random() * 5)}
-const dailyFortune = {
-        starSigns: ['Libra', 'scorpio', "gemini"],
-        luck: ['good luck', "bad luck", "no luck"],
-        quote: ['Youll have a great day', "keep your head up", "better luck tomorrow"]
-}
+function randomNumber(num) { 
+        return Math.floor(Math.random() * num)}
+const dailyFortune = []
+        const starSigns =  ['Libra', 'Scorpio', "Gemini"]
+        const luck =['good luck', "bad luck", "no luck"]
+        const quote = ['Youll have a great day', "keep your head up"]
 
-function pickFortune() {
-        for (let i = randomNumber(); i < dailyFortune.starSigns.length; i++) {
-                return dailyFortune.starSigns[i]
-        }
-}
+let fortune = []
 
-console.log(pickFortune())
+for (subj in dailyFortune) {
+        let answer = randomNumber(dailyFortune[subj].length)
+        
+
+}
